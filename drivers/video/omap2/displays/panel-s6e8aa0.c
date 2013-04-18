@@ -71,7 +71,7 @@ enum {
 #define DEVICE_NAME "s6e8aa0_i2c"
 
 /* contrast tweak from morfic - Trinity Kernel */
-static int contrast = -3;
+static int contrast = -18;
 module_param(contrast, int, 0755);
 EXPORT_SYMBOL(contrast);
 
