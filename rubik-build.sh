@@ -46,7 +46,7 @@ else
   #
   # LOCAL KERNEL VERSION
   #
-  ak_ver="RUBIK-AK-r22"; export LOCALVERSION="~"`echo $ak_ver`
+  ak_ver="RUBIK-AK-r23"; export LOCALVERSION="~"`echo $ak_ver`
 
   debug=0
 
