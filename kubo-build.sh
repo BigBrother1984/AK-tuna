@@ -46,7 +46,7 @@ else
   #
   # LOCAL KERNEL VERSION
   #
-  ak_ver="KUBO-AK-r42"; export LOCALVERSION="~"`echo $ak_ver`
+  ak_ver="KUBO-AK-r43"; export LOCALVERSION="~"`echo $ak_ver`
 
   debug=0
 
