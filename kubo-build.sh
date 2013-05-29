@@ -46,7 +46,7 @@ else
   #
   # LOCAL KERNEL VERSION
   #
-  ak_ver="AK.256.SKL"; export LOCALVERSION="~"`echo $ak_ver`
+  ak_ver="KUBO-AK-r50"; export LOCALVERSION="~"`echo $ak_ver`
 
   debug=0
 
