@@ -8,9 +8,9 @@ clear
 PARAM=$1
 DATE_START=$(date +"%s")
 CWM_MOVE="/home/carlosavignano/android/"
-TOOLCHAIN_LINARO="${HOME}/android/AK-linaro/4.7.3-2013.04.20130415/bin/arm-linux-gnueabihf-"
-TOOLCHAIN_GOOGLE="${HOME}/android/AK-linaro/4.6.x-google/bin/arm-eabi-"
-TOOLCHAIN_STRIP="${HOME}/android/AK-linaro/4.7.3-2013.04.20130415/bin/arm-linux-gnueabihf-strip"
+TOOLCHAIN_LINARO="${HOME}/android/Linaro_4.8.x/4.8.1-2013.05.20130524/bin/arm-linux-gnueabihf-"
+TOOLCHAIN_GOOGLE="${HOME}/android/Linaro_4.8.x/4.6.x-google/bin/arm-eabi-"
+TOOLCHAIN_STRIP="${HOME}/android/Linaro_4.8.x/4.8.1-2013.05.20130524/bin/arm-linux-gnueabihf-strip"
 
 if [ "${PARAM}" == "debug" ]; then
  echo ""; echo "# AK BUILD DEBUG ------------------------------------------------------------------------------------------------"; echo ""
@@ -106,7 +106,7 @@ cd ../AK-tuna/
 
 echo .
 echo ..
-echo ... Compile Complite ! ... `echo $ak_ver`.zip
+echo ... Compile Complete ! ... `echo $ak_ver`.zip
 echo ..
 echo .
 
